@@ -48,25 +48,6 @@ This project is a web-based **Role-Based Access Control (RBAC)** system that ena
 
 ---
 
-## **Project Structure**
-
-```
-src/
-├── app/
-│   ├── api/
-│   │   ├── users/
-│   │   │   └── route.js   # User CRUD API
-│   │   ├── roles/
-│   │   │   └── route.js   # Role CRUD API
-│   ├── dashboard/
-│   │   ├── User.jsx       # User Management Component
-│   │   ├── Roles.jsx      # Role Management Component
-├── data/
-│   ├── users.json         # Stores user details
-│   ├── roles.json         # Stores role definitions and permissions
-```
-
----
 
 ## **Setup and Installation**
 
