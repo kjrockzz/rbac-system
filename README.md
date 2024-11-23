@@ -16,13 +16,14 @@ This project is a web-based **Role-Based Access Control (RBAC)** system that ena
 - Restrict non-admin users from:
   - Assigning the **Admin** role.
   - Modifying or deleting Admin users.
-- Data persistence is handled via a `users.json` file located in the `data` folder.
+- **User email and passwords** are securely stored in the `users.json` file located in the `data` folder.
+- Data persistence is handled via the `users.json` file.
 
 ### **2. Role Management**
 - View a list of roles and their permissions.
 - Add, edit, or delete roles.
 - Assign permissions to roles (e.g., `Read`, `Write`, `Update`, `Delete`).
-- Data persistence is handled via a `roles.json` file located in the `data` folder.
+- Data persistence is handled via the `roles.json` file located in the `data` folder.
 
 ### **3. Dynamic Permissions**
 - Role-based actions:
@@ -48,6 +49,14 @@ This project is a web-based **Role-Based Access Control (RBAC)** system that ena
 
 ---
 
+## **Admin Credentials**
+
+Use the following credentials to log in as the Admin:
+
+- **Email**: `admin@company.com`
+- **Password**: `admin`
+
+---
 
 ## **Setup and Installation**
 
@@ -60,7 +69,6 @@ This project is a web-based **Role-Based Access Control (RBAC)** system that ena
    ```bash
    git clone https://github.com/kjrockzz/rbac-system.git
    ```
-   
 2. Navigate to the project directory:
    ```bash
    cd rbac-system
@@ -84,6 +92,7 @@ This project is a web-based **Role-Based Access Control (RBAC)** system that ena
 ### **1. CRUD Operations**
 - **Users**:
   - Stored in `data/users.json`.
+  - User emails and passwords are securely managed here.
   - Can be fetched, created, updated, or deleted via `/api/users` API.
 - **Roles**:
   - Stored in `data/roles.json`.
