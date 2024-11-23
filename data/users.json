@@ -1,0 +1,39 @@
+[
+  {
+    "id": 0,
+    "name": "Admin",
+    "email": "admin@company.com",
+    "password": "admin",
+    "role": "Admin",
+    "isActive": true
+  },
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "role": "Editor",
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "role": "Viewer",
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "name": "rohan",
+    "email": "321@kjs.ccom",
+    "password": "editor",
+    "role": "Admin",
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "name": "test",
+    "email": "test@qwe.com",
+    "role": "trdt",
+    "isActive": true
+  }
+]

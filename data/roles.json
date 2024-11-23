@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Admin",
+    "permissions": [
+      "Read",
+      "Write",
+      "Delete",
+      "Update"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Editor",
+    "permissions": [
+      "Read",
+      "Write",
+      "Update"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Viewer",
+    "permissions": [
+      "Read"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "trdt",
+    "permissions": [
+      "Read",
+      "Update"
+    ]
+  }
+]
