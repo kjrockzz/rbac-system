@@ -56,6 +56,13 @@ Use the following credentials to log in as the Admin:
 - **Email**: `admin@company.com`
 - **Password**: `admin`
 
+Other Credentials
+1.Editor
+- **Email**: `321@kjs.ccom`
+- **Password**: `editor`
+2.Viewer
+- **Email**: `jane@example.com`
+- **Password**: `viewer`
 ---
 
 ## **Setup and Installation**

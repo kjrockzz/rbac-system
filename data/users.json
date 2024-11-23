@@ -18,6 +18,7 @@
     "id": 2,
     "name": "Jane Smith",
     "email": "jane@example.com",
+    "password":"viewer",
     "role": "Viewer",
     "isActive": true
   },
